@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace AP_CA
 {
-    public partial class login : MaterialSkin.Controls.MaterialForm
+    public partial class login : Form
     {
 
         public login()
@@ -66,9 +66,9 @@ namespace AP_CA
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            AdministratorLogin al = new AdministratorLogin();
-            al.Show();
-            this.Hide();
+            //AdministratorLogin al = new AdministratorLogin();
+            //al.Show();
+            //this.Hide();
         }
 
         private void CloseToolStripMenuItem_Click(object sender, EventArgs e)
@@ -89,6 +89,11 @@ namespace AP_CA
         private void CloseToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
